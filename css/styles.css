@@ -82,8 +82,23 @@ footer{
     width: 50px;
     height: 50px;
 }
-
-
+/* pagina shows */
+#show1{
+width: 450px;
+height: 450px;
+}
+#show2{
+width: 450px;
+height: 450px;
+}
+#show3{
+width: 450px;
+height: 450px;
+}
+.main{
+    width: 100vw;
+    height: 211vh;
+}
 @media (max-width: 575.98px) { ... }
 
 
