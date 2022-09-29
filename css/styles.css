@@ -8,7 +8,7 @@ html{
 
 header{
     width: 100vw;
-    height: 15vh;
+    height: 25vh;
 }
 main{
     width: 100vw;
@@ -83,6 +83,10 @@ footer{
     height: 50px;
 }
 /* pagina shows */
+#cuerpo{
+    width: 100vw;
+    height: 150vh;
+}
 #show1{
 width: 450px;
 height: 450px;
@@ -99,19 +103,24 @@ height: 450px;
     width: 100vw;
     height: 211vh;
 }
-@media (max-width: 575.98px) { ... }
-
-
-@media (max-width: 767.98px) {  
-    #logo{
-        width: 80px;
-        height: 80px;
-    }
+@media (max-width: 575.98px) {}
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) {
 }
 
-
-@media (max-width: 991.98px) { ... }
-
-@media (max-width: 1199.98px) { ... }
-
-@media (max-width: 1399.98px) { ... }
+@media (max-width: 1199.98px) {
+    #show1{
+        width: 300px;
+        height: 300px;
+        }
+        #show2{
+            width: 300px;
+            height: 300px;
+            }
+            #show3{
+                width: 300px;
+                height: 300px;
+                }
+}
+@media (max-width: 1400px) {
+}
