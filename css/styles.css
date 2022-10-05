@@ -1,3 +1,4 @@
+/* general */
 body{
     height: 262vh;
     width: 100vw;
@@ -28,6 +29,7 @@ main{
     height: 15vh;
     background-color: red;
 }
+/* index */
 #first{
 width: 100vw;
 height: 54vh;
@@ -62,6 +64,7 @@ background-image: url(../assets/images/concierto.png);
     scroll-margin-top: 15vh;
     background-image: url(../assets/images/musica.png);
 }
+/* footer */
 #logofooter{
     width: 200px;
     height: 150px;
@@ -119,6 +122,30 @@ height: 450px;
 .carousel-inner img{
     width: 100%;
     height: 800px;
+}
+.scroll{
+    scroll-margin-top: 15vh;
+}
+/* pagina merch */
+.mainmerch{
+    width: 100%;
+    height: 60vw;
+}
+.bodymerch{
+    width: 100%;
+    height: 150vh;
+}
+/* pagina novedades */
+.tamañocard{
+    width: 300px !important;
+}
+.mainnovedades{
+    width: 100%;
+    height: 110vh;
+}
+.bodynovedades{
+    width: 100%;
+    height: 150vh;
 }
 @media (max-width: 575.98px) {}
 @media (max-width: 767.98px) { }
