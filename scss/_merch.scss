@@ -1,0 +1,20 @@
+.bodymerch{
+    width: 100%;
+    height: 150vh;
+    .mainmerch{
+        width: 100%;
+        height: 60vw;
+        section{
+            div{
+                .carousel-inner{
+                    width: 100%;
+                    height: 600px;
+                }
+                .carousel-inner img{
+                    width: 100%;
+                    height: 800px;
+                }
+            }
+        }
+    }
+}

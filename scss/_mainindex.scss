@@ -1,0 +1,39 @@
+main{
+    .cura{
+        width: 100vw;
+        height: 15vh;
+    }
+    #first{
+        width: 100vw;
+height: 54vh;
+scroll-margin-top: 15vh;
+background-image: url(../assets/images/concierto.png);
+    }
+    #second{
+        width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/vecina.jpg);
+    background-repeat: no-repeat;
+    }
+    #third{
+        width: 100vw;
+    height: 60vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/285110494_166259122521018_5885656613623835379_n.jpg);
+    background-position: center;
+    }
+    #fourth{
+        width: 100vw;
+        height: 25vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/foto.jpg);
+    }
+    #fifth{
+        background-color: #FBA127;
+        width: 100vw;
+        height: 55vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/musica.png);
+    }
+}
