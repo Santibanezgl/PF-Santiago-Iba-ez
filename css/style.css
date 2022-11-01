@@ -1,7 +1,10 @@
 footer {
-  width: 100vw;
+  width: 100%;
   height: 42vh;
   background-color: rgb(226, 43, 43);
+}
+footer nav {
+  width: 100%;
 }
 footer nav div #logofooter {
   width: 200px;
@@ -37,47 +40,58 @@ html body main {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   height: 15vh;
+  background-color: rgb(226, 43, 43) !important;
   z-index: 5;
 }
 header #nav {
-  width: 100vw;
+  width: 100%;
   height: 15vh;
-  background-color: red;
+  background-color: rgb(226, 43, 43) !important;
+  margin-right: 15px;
+  z-index: 5;
+}
+header #nav a .ysylogoheader {
+  width: 100px;
+  height: 100px;
 }
 
-main .cura {
+.mainindex {
+  width: 100vw;
+  height: 224vh;
+}
+.mainindex .cura {
   width: 100vw;
   height: 15vh;
 }
-main #first {
+.mainindex #first {
   width: 100vw;
   height: 54vh;
   scroll-margin-top: 15vh;
   background-image: url(../assets/images/concierto.png);
 }
-main #second {
+.mainindex #second {
   width: 100vw;
   height: 25vh;
   scroll-margin-top: 15vh;
   background-image: url(../assets/images/vecina.jpg);
   background-repeat: no-repeat;
 }
-main #third {
+.mainindex #third {
   width: 100vw;
   height: 60vh;
   scroll-margin-top: 15vh;
   background-image: url(../assets/images/285110494_166259122521018_5885656613623835379_n.jpg);
   background-position: center;
 }
-main #fourth {
+.mainindex #fourth {
   width: 100vw;
   height: 25vh;
   scroll-margin-top: 15vh;
   background-image: url(../assets/images/foto.jpg);
 }
-main #fifth {
+.mainindex #fifth {
   background-color: #FBA127;
   width: 100vw;
   height: 55vh;
@@ -108,11 +122,11 @@ main #fifth {
 
 .bodyysysmo {
   width: 100%;
-  height: 196vh;
+  height: 197vh;
 }
 .bodyysysmo .mainysysmo {
   width: 100%;
-  height: 158vh;
+  height: 150vh;
 }
 .bodyysysmo .mainysysmo section div .carousel-inner {
   width: 100%;
@@ -129,15 +143,15 @@ main #fifth {
 }
 .bodymerch .mainmerch {
   width: 100%;
-  height: 60vw;
+  height: 140vh;
 }
 .bodymerch .mainmerch section div .carousel-inner {
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 .bodymerch .mainmerch section div .carousel-inner img {
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .bodynovedades {
@@ -151,23 +165,22 @@ main #fifth {
 
 .bodymusic {
   width: 100%;
-  height: 230vh;
+  height: 410vh;
 }
 .bodymusic .mainmusic {
   width: 100%;
-  height: 204vh;
+  height: 382vh;
 }
 
 @media (min-width: 575.98px) and (max-width: 766px) {
   header {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     z-index: 5;
   }
   header #nav {
     width: 100%;
-    height: 20vh;
-    background-color: red;
+    height: 15vh;
   }
   .bodyshows {
     width: 110vw;
@@ -193,13 +206,12 @@ main #fifth {
 @media (min-width: 767.98px) and (max-width: 991px) {
   header {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     z-index: 5;
   }
   header #nav {
     width: 100%;
-    height: 20vh;
-    background-color: red;
+    height: 15vh;
   }
   .bodyshows {
     width: 100vw;
@@ -244,7 +256,7 @@ main #fifth {
     height: 600px;
   }
 }
-@media (min-width: 1199.98px) and (max-width: 1399px) {
+@media (min-width: 1199.98px) and (max-width: 1359px) {
   .bodyshows {
     width: 100vw;
     height: 300vh;
