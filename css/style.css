@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 42vh;
+  height: 46vh;
   background-color: rgb(226, 43, 43);
 }
 footer nav {
@@ -173,18 +173,89 @@ header #nav a .ysylogoheader {
 }
 
 @media (min-width: 575.98px) and (max-width: 766px) {
+  .bodyysysmo {
+    width: 100%;
+    height: 100vh;
+  }
+  .bodyysysmo .mainysysmo {
+    width: 100%;
+    height: 150vh;
+  }
   header {
     width: 100%;
-    height: 15vh;
+    height: 17vh;
     z-index: 5;
   }
   header #nav {
     width: 100%;
-    height: 15vh;
+    height: 17vh;
   }
+}
+.bodyshows {
+  width: 100vw;
+  height: 260vh;
+}
+.bodyshows .mainshows {
+  width: 100vw;
+  height: 250vh;
+}
+.bodyshows .mainshows section div #show1 {
+  width: 500px;
+  height: 500px;
+}
+.bodyshows .mainshows section div #show2 {
+  width: 500px;
+  height: 500px;
+}
+.bodyshows .mainshows section div #show3 {
+  width: 500px;
+  height: 500px;
+}
+
+@media (min-width: 767.98px) and (max-width: 991px) {
+  .bodyysysmo {
+    width: 100%;
+    height: 100vh;
+  }
+  .bodyysysmo .mainysysmo {
+    width: 100%;
+    height: 150vh;
+  }
+  header {
+    width: 100%;
+    height: 17vh;
+    z-index: 5;
+  }
+  header #nav {
+    width: 100%;
+    height: 17vh;
+  }
+}
+.bodyshows {
+  width: 100vw;
+  height: 260vh;
+}
+.bodyshows .mainshows {
+  width: 100vw;
+  height: 250vh;
+}
+.bodyshows .mainshows section div #show1 {
+  width: 540px;
+  height: 500px;
+}
+.bodyshows .mainshows section div #show2 {
+  width: 540px;
+  height: 500px;
+}
+.bodyshows .mainshows section div #show3 {
+  width: 540px;
+  height: 500px;
+}
+
+@media (min-width: 991.98px) and (max-width: 1199px) {
   .bodyshows {
-    width: 110vw;
-    height: 290vh;
+    width: 100vw;
+    height: 300vh;
   }
   .bodyshows .mainshows {
     width: 100vw;
@@ -195,65 +266,20 @@ header #nav a .ysylogoheader {
     height: 500px;
   }
   .bodyshows .mainshows section div #show2 {
-    width: 495px;
-    height: 500px;
-  }
-  .bodyshows .mainshows section div #show3 {
-    width: 495px;
-    height: 500px;
-  }
-}
-@media (min-width: 767.98px) and (max-width: 991px) {
-  header {
-    width: 100%;
-    height: 15vh;
-    z-index: 5;
-  }
-  header #nav {
-    width: 100%;
-    height: 15vh;
-  }
-  .bodyshows {
-    width: 100vw;
-    height: 380vh;
-  }
-  .bodyshows .mainshows {
-    width: 100vw;
-    height: 339vh;
-  }
-  .bodyshows .mainshows section div #show1 {
-    width: 900px;
-    height: 700px;
-  }
-  .bodyshows .mainshows section div #show2 {
-    width: 895px;
-    height: 700px;
-  }
-  .bodyshows .mainshows section div #show3 {
-    width: 895px;
-    height: 700px;
-  }
-}
-@media (min-width: 991.98px) and (max-width: 1199px) {
-  .bodyshows {
-    width: 100vw;
-    height: 300vh;
-  }
-  .bodyshows .mainshows {
-    width: 100vw;
-    height: 263vh;
-  }
-  .bodyshows .mainshows section div #show1 {
     width: 500px;
-    height: 600px;
-  }
-  .bodyshows .mainshows section div #show2 {
-    width: 495px;
-    height: 600px;
+    height: 500px;
   }
   .bodyshows .mainshows section div #show3 {
-    width: 495px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
+  }
+  .bodyysysmo {
+    width: 100%;
+    height: 175vh;
+  }
+  .bodyysysmo .mainysysmo {
+    width: 100%;
+    height: 150vh;
   }
 }
 @media (min-width: 1199.98px) and (max-width: 1359px) {
@@ -263,7 +289,41 @@ header #nav a .ysylogoheader {
   }
   .bodyshows .mainshows {
     width: 100vw;
-    height: 282vh;
+    height: 240vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 604px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 600px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 600px;
+    height: 500px;
+  }
+}
+@media (min-width: 1360px) and (max-width: 1399px) {
+  .bodyshows {
+    width: 100vw;
+    height: 300vh;
+  }
+  .bodyshows .mainshows {
+    width: 100vw;
+    height: 240vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 604px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 600px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 600px;
+    height: 500px;
   }
 }
 @media (min-width: 1400px) {
@@ -273,6 +333,18 @@ header #nav a .ysylogoheader {
   }
   .bodyshows .mainshows {
     width: 100vw;
-    height: 263vh;
+    height: 240vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 704px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 700px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 700px;
+    height: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
