@@ -172,7 +172,183 @@ header #nav a .ysylogoheader {
   height: 382vh;
 }
 
-@media (min-width: 575.98px) and (max-width: 766px) {
+@media only screen and (min-width: 320px) and (max-width: 432px) {
+  .bodyshows {
+    width: 100vw;
+    height: 240vh;
+  }
+  .bodyshows .mainshows {
+    width: 100vw;
+    height: 220vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 298px;
+    height: 400px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 298px;
+    height: 400px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 298px;
+    height: 400px;
+  }
+  .bodyysysmo {
+    width: 100%;
+    height: 100vh;
+  }
+  .bodyysysmo .mainysysmo {
+    width: 100%;
+    height: 150vh;
+  }
+  .bodymerch {
+    width: 100%;
+    height: 90vh;
+  }
+  .bodymerch .mainmerch {
+    width: 100%;
+    height: 70vh;
+  }
+  .bodymerch .mainmerch section div .carousel-inner {
+    width: 100%;
+    height: 300px;
+  }
+  .bodymerch .mainmerch section div .carousel-inner img {
+    width: 100%;
+    height: 300px;
+  }
+  .bodymusic {
+    width: 100%;
+    height: 187vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 130vh;
+  }
+  footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(226, 43, 43);
+    margin-top: 5px;
+  }
+  footer nav {
+    width: 100%;
+  }
+  footer nav div #logofooter {
+    width: 200px;
+    height: 150px;
+    margin-left: 5;
+  }
+  footer nav div #insta {
+    width: 50px;
+    height: 50px;
+    margin-left: 4;
+  }
+  footer nav div #tw {
+    width: 50px;
+    height: 50px;
+    margin-left: 4;
+  }
+  footer nav div #spotify {
+    width: 50px;
+    height: 50px;
+    margin-left: 4;
+  }
+  footer nav div #tienda {
+    width: 50px;
+    height: 50px;
+    margin-left: 4;
+  }
+}
+@media only screen and (min-width: 433px) and (max-width: 574px) {
+  .bodyshows {
+    width: 100vw;
+    height: 240vh;
+  }
+  .bodyshows .mainshows {
+    width: 100vw;
+    height: 225vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 400px;
+    height: 400px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 400px;
+    height: 400px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 400px;
+    height: 400px;
+  }
+  footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(226, 43, 43);
+    margin-top: 5px;
+  }
+  footer nav {
+    width: 100%;
+  }
+  footer nav div #logofooter {
+    width: 200px;
+    height: 150px;
+    margin-left: 27px;
+  }
+  footer nav div #insta {
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+  }
+  footer nav div #tw {
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+  }
+  footer nav div #spotify {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+  }
+  footer nav div #tienda {
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+  }
+  .bodyysysmo {
+    width: 100%;
+    height: 127vh;
+  }
+  .bodyysysmo .mainysysmo {
+    width: 100%;
+    height: 156vh;
+  }
+  .bodymerch {
+    width: 100%;
+    height: 90vh;
+  }
+  .bodymerch .mainmerch {
+    width: 100%;
+    height: 66vh;
+  }
+  .bodymerch .mainmerch section div .carousel-inner {
+    width: 100%;
+    height: 330px;
+  }
+  .bodymerch .mainmerch section div .carousel-inner img {
+    width: 100%;
+    height: 330px;
+  }
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 145vh;
+  }
+}
+@media (min-width: 575px) and (max-width: 766px) {
   .bodyysysmo {
     width: 100%;
     height: 100vh;
@@ -190,29 +366,36 @@ header #nav a .ysylogoheader {
     width: 100%;
     height: 17vh;
   }
+  .bodyshows {
+    width: 100vw;
+    height: 260vh;
+  }
+  .bodyshows .mainshows {
+    width: 100vw;
+    height: 250vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 500px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 500px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 500px;
+    height: 500px;
+  }
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 180vh;
+  }
 }
-.bodyshows {
-  width: 100vw;
-  height: 260vh;
-}
-.bodyshows .mainshows {
-  width: 100vw;
-  height: 250vh;
-}
-.bodyshows .mainshows section div #show1 {
-  width: 500px;
-  height: 500px;
-}
-.bodyshows .mainshows section div #show2 {
-  width: 500px;
-  height: 500px;
-}
-.bodyshows .mainshows section div #show3 {
-  width: 500px;
-  height: 500px;
-}
-
-@media (min-width: 767.98px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .bodyysysmo {
     width: 100%;
     height: 100vh;
@@ -230,29 +413,36 @@ header #nav a .ysylogoheader {
     width: 100%;
     height: 17vh;
   }
+  .bodyshows {
+    width: 100vw;
+    height: 260vh;
+  }
+  .bodyshows .mainshows {
+    width: 100vw;
+    height: 250vh;
+  }
+  .bodyshows .mainshows section div #show1 {
+    width: 540px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show2 {
+    width: 540px;
+    height: 500px;
+  }
+  .bodyshows .mainshows section div #show3 {
+    width: 540px;
+    height: 500px;
+  }
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 215vh;
+  }
 }
-.bodyshows {
-  width: 100vw;
-  height: 260vh;
-}
-.bodyshows .mainshows {
-  width: 100vw;
-  height: 250vh;
-}
-.bodyshows .mainshows section div #show1 {
-  width: 540px;
-  height: 500px;
-}
-.bodyshows .mainshows section div #show2 {
-  width: 540px;
-  height: 500px;
-}
-.bodyshows .mainshows section div #show3 {
-  width: 540px;
-  height: 500px;
-}
-
-@media (min-width: 991.98px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1198px) {
   .bodyshows {
     width: 100vw;
     height: 300vh;
@@ -281,8 +471,16 @@ header #nav a .ysylogoheader {
     width: 100%;
     height: 150vh;
   }
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 250vh;
+  }
 }
-@media (min-width: 1199.98px) and (max-width: 1359px) {
+@media (min-width: 1199px) and (max-width: 1399px) {
   .bodyshows {
     width: 100vw;
     height: 300vh;
@@ -303,27 +501,21 @@ header #nav a .ysylogoheader {
     width: 600px;
     height: 500px;
   }
-}
-@media (min-width: 1360px) and (max-width: 1399px) {
-  .bodyshows {
-    width: 100vw;
-    height: 300vh;
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
   }
-  .bodyshows .mainshows {
-    width: 100vw;
-    height: 240vh;
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 280vh;
   }
-  .bodyshows .mainshows section div #show1 {
-    width: 604px;
-    height: 500px;
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
   }
-  .bodyshows .mainshows section div #show2 {
-    width: 600px;
-    height: 500px;
-  }
-  .bodyshows .mainshows section div #show3 {
-    width: 600px;
-    height: 500px;
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 290vh;
   }
 }
 @media (min-width: 1400px) {
@@ -346,5 +538,13 @@ header #nav a .ysylogoheader {
   .bodyshows .mainshows section div #show3 {
     width: 700px;
     height: 500px;
+  }
+  .bodymusic {
+    width: 100%;
+    height: 200vh;
+  }
+  .bodymusic .mainmusic {
+    width: 100%;
+    height: 320vh;
   }
 }/*# sourceMappingURL=style.css.map */
