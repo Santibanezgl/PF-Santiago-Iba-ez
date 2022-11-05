@@ -56,6 +56,10 @@ header #nav a .ysylogoheader {
   width: 100px;
   height: 100px;
 }
+header #nav div ul li a {
+  background-color: rgb(226, 43, 43) !important;
+  width: 100px;
+}
 
 .mainindex {
   width: 100vw;
@@ -69,34 +73,34 @@ header #nav a .ysylogoheader {
   width: 100vw;
   height: 54vh;
   scroll-margin-top: 15vh;
-  background-image: url(../assets/images/concierto.png);
+  background-image: url(../assets/images/concierto1400\ si.png);
 }
 .mainindex #second {
   width: 100vw;
   height: 25vh;
   scroll-margin-top: 15vh;
-  background-image: url(../assets/images/vecina.jpg);
+  background-image: url(../assets/images/loco\ 1400.jpg);
   background-repeat: no-repeat;
 }
 .mainindex #third {
   width: 100vw;
   height: 60vh;
   scroll-margin-top: 15vh;
-  background-image: url(../assets/images/285110494_166259122521018_5885656613623835379_n.jpg);
+  background-image: url(../assets/images/sponsor\ 1400.jpg);
   background-position: center;
 }
 .mainindex #fourth {
   width: 100vw;
   height: 25vh;
   scroll-margin-top: 15vh;
-  background-image: url(../assets/images/foto.jpg);
+  background-image: url(../assets/images/trap\ 1400.jpg);
 }
 .mainindex #fifth {
   background-color: #FBA127;
   width: 100vw;
   height: 55vh;
   scroll-margin-top: 15vh;
-  background-image: url(../assets/images/musica.png);
+  background-image: url(../assets/images/musica1400.png);
 }
 
 .bodyshows {
@@ -169,7 +173,7 @@ header #nav a .ysylogoheader {
 }
 .bodymusic .mainmusic {
   width: 100%;
-  height: 382vh;
+  height: 386vh;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 432px) {
@@ -259,6 +263,72 @@ header #nav a .ysylogoheader {
     height: 50px;
     margin-left: 4;
   }
+  header {
+    width: 100%;
+    height: 17vh;
+    z-index: 5;
+  }
+  header #nav {
+    width: 100%;
+    height: 17vh;
+  }
+  header #nav a .ysylogoheader {
+    width: 100px;
+    height: 100px;
+  }
+  header #nav div ul li a {
+    background-color: rgb(226, 43, 43) !important;
+    width: 100px;
+  }
+  .bodynovedades {
+    width: 100%;
+    height: 250vh;
+  }
+  .bodynovedades .mainnovedades {
+    width: 100%;
+    height: 185vh;
+  }
+  .mainindex {
+    width: 100vw;
+    height: 224vh;
+  }
+  .mainindex .cura {
+    width: 100vw;
+    height: 15vh;
+  }
+  .mainindex #first {
+    width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 432.png);
+  }
+  .mainindex #second {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/loco\ 432.jpg);
+    background-repeat: no-repeat;
+  }
+  .mainindex #third {
+    width: 100vw;
+    height: 60vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/sponsor\ 432.jpg);
+    background-position: center;
+  }
+  .mainindex #fourth {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/trap\ 432.jpg);
+  }
+  .mainindex #fifth {
+    background-color: #FBA127;
+    width: 100vw;
+    height: 55vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/musica\ 432\ \(2\).png);
+  }
 }
 @media only screen and (min-width: 433px) and (max-width: 574px) {
   .bodyshows {
@@ -347,6 +417,72 @@ header #nav a .ysylogoheader {
     width: 100%;
     height: 145vh;
   }
+  header {
+    width: 100%;
+    height: 17vh;
+    z-index: 5;
+  }
+  header #nav {
+    width: 100%;
+    height: 17vh;
+  }
+  header #nav a .ysylogoheader {
+    width: 100px;
+    height: 100px;
+  }
+  header #nav div ul li a {
+    background-color: rgb(226, 43, 43) !important;
+    width: 100px;
+  }
+  .bodynovedades {
+    width: 100%;
+    height: 250vh;
+  }
+  .bodynovedades .mainnovedades {
+    width: 100%;
+    height: 185vh;
+  }
+  .mainindex {
+    width: 100vw;
+    height: 224vh;
+  }
+  .mainindex .cura {
+    width: 100vw;
+    height: 15vh;
+  }
+  .mainindex #first {
+    width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 574.png);
+  }
+  .mainindex #second {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/loco\ 574.jpg);
+    background-repeat: no-repeat;
+  }
+  .mainindex #third {
+    width: 100vw;
+    height: 60vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/sponsor\ 574.jpg);
+    background-position: center;
+  }
+  .mainindex #fourth {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/trap\ 574.jpg);
+  }
+  .mainindex #fifth {
+    background-color: #FBA127;
+    width: 100vw;
+    height: 55vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/musica\ 432\ \(2\).png);
+  }
 }
 @media (min-width: 575px) and (max-width: 766px) {
   .bodyysysmo {
@@ -394,6 +530,55 @@ header #nav a .ysylogoheader {
     width: 100%;
     height: 180vh;
   }
+  .bodynovedades {
+    width: 100%;
+    height: 150vh;
+  }
+  .bodynovedades .mainnovedades {
+    width: 100%;
+    height: 130vh;
+  }
+  .mainindex {
+    width: 100vw;
+    height: 224vh;
+  }
+  .mainindex .cura {
+    width: 100vw;
+    height: 15vh;
+  }
+  .mainindex #first {
+    width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 768.png);
+  }
+  .mainindex #second {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/loco\ 574.jpg);
+    background-repeat: no-repeat;
+  }
+  .mainindex #third {
+    width: 100vw;
+    height: 60vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/sponsor\ 768.jpg);
+    background-position: center;
+  }
+  .mainindex #fourth {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/trap\ 574.jpg);
+  }
+  .mainindex #fifth {
+    background-color: #FBA127;
+    width: 100vw;
+    height: 55vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/musica\ 574\ \(2\).png);
+  }
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .bodyysysmo {
@@ -412,6 +597,14 @@ header #nav a .ysylogoheader {
   header #nav {
     width: 100%;
     height: 17vh;
+  }
+  header #nav a .ysylogoheader {
+    width: 100px;
+    height: 100px;
+  }
+  header #nav div ul li a {
+    background-color: rgb(226, 43, 43) !important;
+    width: 100px;
   }
   .bodyshows {
     width: 100vw;
@@ -440,6 +633,55 @@ header #nav a .ysylogoheader {
   .bodymusic .mainmusic {
     width: 100%;
     height: 215vh;
+  }
+  .bodynovedades {
+    width: 100%;
+    height: 150vh;
+  }
+  .bodynovedades .mainnovedades {
+    width: 100%;
+    height: 130vh;
+  }
+  .mainindex {
+    width: 100vw;
+    height: 224vh;
+  }
+  .mainindex .cura {
+    width: 100vw;
+    height: 15vh;
+  }
+  .mainindex #first {
+    width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 768.png);
+  }
+  .mainindex #second {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/loco\ 768.jpg);
+    background-repeat: no-repeat;
+  }
+  .mainindex #third {
+    width: 100vw;
+    height: 60vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/sponsor\ 768.jpg);
+    background-position: center;
+  }
+  .mainindex #fourth {
+    width: 100vw;
+    height: 25vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/trap\ 768.jpg);
+  }
+  .mainindex #fifth {
+    background-color: #FBA127;
+    width: 100vw;
+    height: 55vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/musica\ 768\ \(2\).png);
   }
 }
 @media (min-width: 992px) and (max-width: 1198px) {
@@ -545,6 +787,6 @@ header #nav a .ysylogoheader {
   }
   .bodymusic .mainmusic {
     width: 100%;
-    height: 320vh;
+    height: 325vh;
   }
 }/*# sourceMappingURL=style.css.map */

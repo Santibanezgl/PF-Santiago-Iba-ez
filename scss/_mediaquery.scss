@@ -111,6 +111,80 @@ footer{
         }
     }
 }
+header{
+    width: 100%;
+    height: 17vh;
+    z-index: 5;
+    #nav{
+        width: 100%;
+        height: 17vh;
+        a{
+            .ysylogoheader{
+                width: 100px;
+                height: 100px;
+            }
+                }
+                div{
+                    ul{
+                        li{
+                            a{
+                                background-color: rgb(226, 43, 43) !important;
+                                width: 100px;
+                            }
+                        }
+                    }
+                }    
+    }
+        }
+        .bodynovedades{
+            width: 100%;
+            height: 250vh;
+            .mainnovedades{
+                width: 100%;
+                height: 185vh;
+            }
+        }
+        .mainindex{
+            width: 100vw;
+            height: 224vh;
+            .cura{
+                width: 100vw;
+                height: 15vh;
+            }
+            #first{
+                width: 100vw;
+        height: 54vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/concierto\ 432.png);
+            }
+            #second{
+                width: 100vw;
+            height: 25vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/loco\ 432.jpg);
+            background-repeat: no-repeat;
+            }
+            #third{
+                width: 100vw;
+            height: 60vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/sponsor\ 432.jpg);
+            background-position: center;
+            }
+            #fourth{
+                width: 100vw;
+                height: 25vh;
+                scroll-margin-top: 15vh;
+                background-image: url(../assets/images/trap\ 432.jpg);
+            }
+            #fifth{
+                background-color: #FBA127;
+                width: 100vw;
+                height: 55vh;
+                scroll-margin-top: 15vh;
+                background-image: url(../assets/images/musica\ 432\ \(2\).png);
+            }
+        }
 }
 @media only screen and (min-width: 433px) and (max-width: 574px){
     .bodyshows{
@@ -225,6 +299,80 @@ height: 200vh;
 height: 145vh;
 }
 }
+header{
+    width: 100%;
+    height: 17vh;
+    z-index: 5;
+    #nav{
+        width: 100%;
+        height: 17vh;
+        a{
+            .ysylogoheader{
+                width: 100px;
+                height: 100px;
+            }
+                }
+                div{
+                    ul{
+                        li{
+                            a{
+                                background-color: rgb(226, 43, 43) !important;
+                                width: 100px;
+                            }
+                        }
+                    }
+                }    
+    }
+        }
+        .bodynovedades{
+            width: 100%;
+            height: 250vh;
+            .mainnovedades{
+                width: 100%;
+                height: 185vh;
+            }
+        }
+        .mainindex{
+            width: 100vw;
+            height: 224vh;
+            .cura{
+                width: 100vw;
+                height: 15vh;
+            }
+            #first{
+                width: 100vw;
+        height: 54vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/concierto\ 574.png);
+            }
+            #second{
+                width: 100vw;
+            height: 25vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/loco\ 574.jpg);
+            background-repeat: no-repeat;
+            }
+            #third{
+                width: 100vw;
+            height: 60vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/sponsor\ 574.jpg);
+            background-position: center;
+            }
+            #fourth{
+                width: 100vw;
+                height: 25vh;
+                scroll-margin-top: 15vh;
+                background-image: url(../assets/images/trap\ 574.jpg);
+            }
+            #fifth{
+                background-color: #FBA127;
+                width: 100vw;
+                height: 55vh;
+                scroll-margin-top: 15vh;
+                background-image: url(../assets/images/musica\ 432\ \(2\).png);
+            }
+        }
 }
 
 
@@ -289,6 +437,55 @@ height: 145vh;
     height: 180vh;
     }
     }
+    .bodynovedades{
+        width: 100%;
+        height: 150vh;
+        .mainnovedades{
+            width: 100%;
+            height: 130vh;
+        }
+    }
+    .mainindex{
+        width: 100vw;
+        height: 224vh;
+        .cura{
+            width: 100vw;
+            height: 15vh;
+        }
+        #first{
+            width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 768.png);
+        }
+        #second{
+            width: 100vw;
+        height: 25vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/loco\ 574.jpg);
+        background-repeat: no-repeat;
+        }
+        #third{
+            width: 100vw;
+        height: 60vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/sponsor\ 768.jpg);
+        background-position: center;
+        }
+        #fourth{
+            width: 100vw;
+            height: 25vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/trap\ 574.jpg);
+        }
+        #fifth{
+            background-color: #FBA127;
+            width: 100vw;
+            height: 55vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/musica\ 574\ \(2\).png);
+        }
+    }
 }
 
 
@@ -308,7 +505,23 @@ height: 145vh;
         #nav{
             width: 100%;
             height: 17vh;
-            }
+            a{
+                .ysylogoheader{
+                    width: 100px;
+                    height: 100px;
+                }
+                    }
+                    div{
+                        ul{
+                            li{
+                                a{
+                                    background-color: rgb(226, 43, 43) !important;
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }    
+        }
             }
         
     .bodyshows{
@@ -350,6 +563,55 @@ height: 145vh;
         width: 100%;
     height: 215vh;
     }
+    }
+    .bodynovedades{
+        width: 100%;
+        height: 150vh;
+        .mainnovedades{
+            width: 100%;
+            height: 130vh;
+        }
+    }
+    .mainindex{
+        width: 100vw;
+        height: 224vh;
+        .cura{
+            width: 100vw;
+            height: 15vh;
+        }
+        #first{
+            width: 100vw;
+    height: 54vh;
+    scroll-margin-top: 15vh;
+    background-image: url(../assets/images/concierto\ 768.png);
+        }
+        #second{
+            width: 100vw;
+        height: 25vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/loco\ 768.jpg);
+        background-repeat: no-repeat;
+        }
+        #third{
+            width: 100vw;
+        height: 60vh;
+        scroll-margin-top: 15vh;
+        background-image: url(../assets/images/sponsor\ 768.jpg);
+        background-position: center;
+        }
+        #fourth{
+            width: 100vw;
+            height: 25vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/trap\ 768.jpg);
+        }
+        #fifth{
+            background-color: #FBA127;
+            width: 100vw;
+            height: 55vh;
+            scroll-margin-top: 15vh;
+            background-image: url(../assets/images/musica\ 768\ \(2\).png);
+        }
     }
 }
 
@@ -494,7 +756,7 @@ height: 145vh;
     height: 200vh;
     .mainmusic{
         width: 100%;
-    height: 320vh;
+    height: 325vh;
     }
     }
 }
